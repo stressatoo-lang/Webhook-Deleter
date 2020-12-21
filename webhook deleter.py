@@ -1,4 +1,5 @@
 import requests
+import time
 
 webhook = 'replace with the webhook you want to delete'
 
@@ -9,13 +10,16 @@ def delete():
 
     if check2.status_code == 404:
         print("Webhook successfully deleted.")
+        time.sleep(999)
     elif check2.status_code == 200:
         print("Webhook failed to delete.")
+        time.sleep(999)
 
 check1 = requests.get(webhook)
 
 if check1.status_code == 404:
     print("Invalid webhook has been passed.")
+    time.sleep(999)
 elif check1.status_code == 200:
     print("Webhook valid, deleting.")
     delete()
