@@ -7,3 +7,6 @@ Using this will delete any webhook you give it.
 * After installing open up command prompt, and type in "pip install requests"
 * And edit the webhook url in the file.
 * And your done.
+
+# Discord
+My discord: Leafy#8008
