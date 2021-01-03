@@ -9,4 +9,4 @@ Using this will delete any webhook you give it.
 * And your done.
 
 # Discord
-My discord: Leafy#8008
+My discord: Leafy#9999
